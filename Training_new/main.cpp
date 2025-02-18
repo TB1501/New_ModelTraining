@@ -11,6 +11,8 @@ int main(int argc, char* argv[]) {
 
     //READING THE DATA
 
+    std::cout<<"Define the paths to: images, labels and the path to the location for saving the model"<<std::endl;
+
     if (argc < 4) {
         std::cout << "Usage: " << argv[0] << " <path to images> <path to labels> <path to save data>" << std::endl;
         return 1;
